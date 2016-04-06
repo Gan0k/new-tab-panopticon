@@ -5,20 +5,20 @@
 	<meta property="og:title" content="London Panopticon" />
 	<meta property="og:url" content="http://vis.oobrien.com/panopticon/" />
 	<meta property="og:description" content="CCTV traffic cameras from TfL around you." />
-	<meta property="og:site_name" content="London Panopticon" /> 					
+	<meta property="og:site_name" content="London Panopticon" />
 	<meta property="og:type" content="article" />
 	<meta property="og:image" content="http://vis.oobrien.com/panopticon/images/thumbnail.png" />
-	<meta property="fb:admins" content="507348039" />    
-	<meta property="fb:app_id" content="114474805306975" />    
+	<meta property="fb:admins" content="507348039" />
+	<meta property="fb:app_id" content="114474805306975" />
 
 	<title>London Panopticon</title>
-	<link rel="stylesheet" type="text/css" media="all" href="style.css" />	
+	<link rel="stylesheet" type="text/css" media="all" href="style.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="http://fonts.googleapis.com/css?family=Hammersmith+One">
-	
-	<script type="text/javascript" src="http://vis.oobrien.com/js/jquery-1.11.1.min.js"></script>	     
+
+	<script type="text/javascript" src="http://vis.oobrien.com/js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="main.js"></script>
 </head>
-<body>   
+<body>
 <div id='cams'>
 	<div class='cam' id='camNW'><div class='camdir'>NW</div><div class='camimage' id='camimgNW'></div><div class='camname' id='camnameNW'></div></div>
 	<div class='cam' id='camN'><div class='camdir'>N</div><div class='camimage' id='camimgN'></div><div class='camname' id='camnameN'></div></div>
@@ -31,7 +31,7 @@
 	<div class='cam' id='myloc'>
 		<div id='mylocoptions'>
 			<h1>London Panopticon</h1>
-			Look around: 
+			Look around:
 			<select id='location' onchange='setLocationManual()'>
 				<option value='geo'>Current location</option>
 				<option value='trafalgarsq'>Trafalgar Square</option>
@@ -45,11 +45,11 @@
 			</select>
 			<div id='explanationkey'>Showing the TfL traffic cameras nearest to you in all directions.<br />
 			Works in Chrome, Firefox and Safari but not Android Chrome.<br />
-			Created by <a href="http://oobrien.com">Oliver O'Brien</a> (<a href="http://twitter.com/oobr">(@oobr)</a>). 
+			Created by <a href="http://oobrien.com">Oliver O'Brien</a> (<a href="http://twitter.com/oobr">(@oobr)</a>).
 			<a href="http://oobrien.com/2016/04/london-panopticon/">How it works</a>.
-			</div> 
+			</div>
 			<div id='locationText'>Determining location...</div>
-			<div id='countdown'>Updating in... <span id='countdowntimer'></span></div>	
+			<div id='countdown'>Updating in... <span id='countdowntimer'></span></div>
 			<div id='loadingDisruption'>Loading cameras...<br /></div>
 		</div>
 	</div>
