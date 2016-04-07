@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "new-tab-panopticon",
+    "description": "Replaces the New Tab page with a London Panopticon",
+    "version": "1.0",
+
+    "chrome_url_overrides" : {
+        "newtab": "panopticon/index.html"
+    },
+
+    "permissions": [
+        "geolocation",
+        "https://*.amazonaws.com/*"
+    ]
+}
+
